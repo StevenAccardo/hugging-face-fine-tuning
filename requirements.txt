@@ -1,0 +1,8 @@
+torch
+torchvision
+datasets
+evaluate
+transformers[sentencepiece]
+transformers[torch]
+scikit-learn
+scipy
