@@ -6,3 +6,4 @@ transformers[sentencepiece]
 transformers[torch]
 scikit-learn
 scipy
+accelerate

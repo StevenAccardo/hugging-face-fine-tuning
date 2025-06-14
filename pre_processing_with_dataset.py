@@ -3,7 +3,7 @@ from transformers import AutoTokenizer
 
 raw_datasets = load_dataset("glue", "mrpc")
 
-# One metthod for tokenizing the dataset and their pairs of sentences.
+# One method for tokenizing the dataset and their pairs of sentences.
 # It will also only work if you have enough RAM to store your whole dataset during the tokenization
 checkpoint = "bert-base-uncased"
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
